@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #0e397b;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0e1331;
+  color: #fff;
+  height: 150px;
+}
+
+.header__flex h1 {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.header__flex nav ul {
+  padding-right: 65px;
+  display: flex;
+}
+
+.header__flex nav ul li {
+  margin-left: 30px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.header__flex h1 {
+  font-size: 28px;
+}
+
+.header__flex nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.header__flex nav ul li a:hover {
+  color: #f2f2f2;
+}
+
+.main {
+  position: relative;
+  right: 260px;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex .image img {
+  width: 400px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.flex .right {
+  margin-left: 20px;
+}
+
+.flex .title {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.flex .profession {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.flex .main-title {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(228, 228, 228);
+}
+
+.flex .main-text {
+  font-weight: lighter;
+  color: rgb(225, 225, 252);
+}
+
+.box17 {
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1a4fa09d;
+  box-shadow: 0 2px 10px rgba(73, 73, 73, 0.2);
+}
+
+.box17 p {
+  margin: 0;
+  padding: 0;
+}
+.box18 {
+  margin-top: 2px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: #447cd19d;
+  box-shadow: 0 2px 10px rgba(73, 73, 73, 0.2);
+}
+
+.box18 p {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
